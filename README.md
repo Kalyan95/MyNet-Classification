@@ -8,6 +8,7 @@ Cancer Dataset
 
 
 2. Network Architecture :
+
 5 convolutional layers with convolutional filters for feature extraction, MaxPooling and Batch Normalization are used with "RELU"  activation function.
 
 - Max Pooling is a sample-based discretization process. The objective is to down-sample an input representation, reducing its
@@ -20,6 +21,7 @@ Cancer Dataset
 
   
 3. Data Augmentation :
+
 - Data Augmentation methods help us improve our training accuracy. We use the Keras ImageDataGenerator library to increase the number of data points in a dataset by performing rescaling, rotating figures along horizontal & vertical axes, changing the width, height, shear and zoom of the images. 
 
 Keras Class to Generate batches of tensor image data with real-time data augmentation. The data will be looped over (in batches).     
@@ -28,7 +30,9 @@ Keras Class to Generate batches of tensor image data with real-time data augment
 
 
 4. Adam Optimizer :
+
 Adam is an optimization algorithm that can be used instead of the classical stochastic gradient descent procedure to update network weights iterative based in training data. Specifically, the algorithm calculates an exponential moving average of the gradient and the squared gradient, and its parameters control the decay rates of these moving averages. 
 
 5. Training :
+
 The model is then trained by fitting the training data. Using 50 Epochs and 60 steps per Epoch by calculating the loss and accuracy at every step thus giving our final performance accuracy. The Accuracy and Loss curves of Training and Validation Datasets are then plotted. 
