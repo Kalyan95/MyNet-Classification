@@ -22,7 +22,7 @@ Cancer Dataset
   
 3. Data Augmentation :
 
-- Data Augmentation methods help us improve our training accuracy. We use the Keras ImageDataGenerator library to increase the number of data points in a dataset by performing rescaling, rotating figures along horizontal & vertical axes, changing the width, height, shear and zoom of the images. 
+Data Augmentation methods help us improve our training accuracy. We use the Keras ImageDataGenerator library to increase the number of data points in a dataset by performing rescaling, rotating figures along horizontal & vertical axes, changing the width, height, shear and zoom of the images. 
 
 Keras Class to Generate batches of tensor image data with real-time data augmentation. The data will be looped over (in batches).     
 
